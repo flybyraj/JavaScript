@@ -1,0 +1,6 @@
+// Qs. Create a function using the "function" keyword that takes a String as an argument &
+//     returns the number of vowels in the string.
+
+function countVovels (str) {
+    for (const char of str)
+}
