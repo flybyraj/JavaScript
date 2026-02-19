@@ -11,5 +11,4 @@ arr.forEach((val) => {  //using call-back function
 let arrSquare =(val) => { //defining a function
     console.log(val*val);
 }
-
-arr.forEach(arrSquare); //calling the function as parameter of forEach
+arr.forEach(arrSquare); //calling the function as parameter of forEach , arrSquare is Call-Back Function, forEach is Higher Order Function
