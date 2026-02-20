@@ -15,3 +15,9 @@ let heading=document.querySelector("h1");
 console.log(heading);
 heading.innerText="New Heading";
 heading.innerHTML="<i>New Heading</i>";
+
+//textContent ->returns textual content even for hidden Elements
+let hidden=document.querySelector("h2");
+console.log(hidden);
+console.log(hidden.innerText); // dosent shows hidden element text
+console.log(hidden.textContent); //shows hidden Elements
