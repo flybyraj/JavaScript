@@ -1,6 +1,8 @@
 // Create 3 divs with common class name - "box". Access them & add some unique text to each
 // of them.
+ 
 
+//Using Loop
 let box=window.document.querySelectorAll(".box");
 console.log(box);
 let count=1;
