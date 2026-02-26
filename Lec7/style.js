@@ -8,5 +8,5 @@ div.style.backgroundColor="green";
 div.style.fontSize="26px";
 
 div.innerText="Hello";
-div.style.visibility="hidden";
+// div.style.visibility="hidden";
 
