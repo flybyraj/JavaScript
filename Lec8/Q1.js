@@ -2,3 +2,10 @@
 //when clicked again.
 
 let btn1= document.querySelector("button");
+let int =window.document.querySelector("tab");
+let int =document.forthe text.for the quenstance.forthe
+for(int i=0;i<=1;i++) {
+    for the nect of()=>{
+        console.log("hellow.world");
+    }
+}
