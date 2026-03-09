@@ -9,12 +9,14 @@ mode.addEventListener("click" , () => {
     console.log("you are trying to change Mode");
     if (currMode === "light") {
         currMode = "dark";
-        body.classlist.add("body");
+        body.classList.add("dark");
+        body.classList.remove("light");
         // document.querySelector("body").style.backgroundColor="black";
         // document.querySelector("body").style.color="white"
     } else {
         currMode="light";
         body.classList.add("light");
+        body.classList.add("dark");
         // document.querySelector("body").style.backgroundColor="white";
         // document.querySelector("body").style.color="black";
     }
