@@ -3,7 +3,7 @@ let reset=document.querySelector("#reset");
 
 let turnO= true; //PlayerX PlayerO
 
-const winPattern = [
+const winPatterns = [
     [0, 1, 2],
     [3, 4, 5],
     [6, 7, 8],
@@ -31,5 +31,7 @@ boxes.forEach((box) =>{
 })
 
 const checkWinner = () => {
-    
+    for (let pattern of winPatterns) {
+        console.log(pattern);
+    }
 }
