@@ -33,4 +33,3 @@ boxes.forEach((box) =>{
 const checkWinner = () => {
     
 }
-
