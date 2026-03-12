@@ -17,9 +17,17 @@ const winPatterns = [
     [2, 4, 6]
 ]
 
+const enableBoxes = () => {
+    for (box of boxes) {
+        box.disabled=false;
+        box.innerText="";
+    }
+}
+
 const resetGame = () => {
     turnO = true;
-    enableBox();
+    enableBoxes();
+    msgContainer.classList.add("hide");
 }
 
 boxes.forEach((box) =>{
@@ -42,14 +50,6 @@ const disableBox = () => {
     for (box of boxes) {
         box.disabled=true;
     }
-
-const enableBox = () => {
-    for (box of boxes) {
-        box.disabled=false;
-        box.innerText="";
-        msgContainer.classList.add("hide");
-    }
-}
 
 }
 const showWinner = (winner) => {
