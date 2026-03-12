@@ -47,10 +47,16 @@ body {
 }
 
 #new-btn {
-     font-size: 1.25rem;
+    font-size: 1rem;
     padding: 1rem;
     background-color: rgb(111, 12, 12);
     color: white;
     border-radius: 2vh;
     font-style: italic;
 }
+
+#msg {
+    font-size: 4vmin;
+    color: #ffffc7;
+}
+
