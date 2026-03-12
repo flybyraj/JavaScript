@@ -1,5 +1,8 @@
-let boxes=document.querySelectorAll(".box");
-let reset=document.querySelector("#reset");
+let boxes= document.querySelectorAll(".box");
+let reset= document.querySelector("#reset");
+let newGameBtn= document.querySelector("#new-btn");
+let msg= document.querySelector("#msg");
+let msgContainer= document.querySelector(".msg-container");
 
 let turnO= true; //PlayerX PlayerO
 
@@ -30,6 +33,17 @@ boxes.forEach((box) =>{
     })
 })
 
+const disableBox = () => {
+    for (box of boxes) {
+        box.disabled=true;
+    }
+}
+const showWinner = (winner) => {
+    msg.innerText=`Congratulations!!! Player ${winner} is Winner...`;
+    msgContainer.classList.remove("hide");
+    disableBox();
+}
+
 const checkWinner = () => {
     for (let pattern of winPatterns) {
         let pos1Val = boxes[pattern[0]].innerText;
@@ -39,6 +53,7 @@ const checkWinner = () => {
         if ( pos1Val != "" && pos2Val != "" && pos3Val != ""){
             if ( pos1Val == pos2Val && pos2Val == pos3Val ) {
                 console.log(`winner is Player ${pos1Val}`);
+                showWinner(pos1Val) ;
             }
         }
     }
