@@ -45,3 +45,12 @@ body {
     font-style: italic;
     
 }
+
+#new-btn {
+     font-size: 1.25rem;
+    padding: 1rem;
+    background-color: rgb(111, 12, 12);
+    color: white;
+    border-radius: 2vh;
+    font-style: italic;
+}
