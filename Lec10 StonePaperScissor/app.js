@@ -9,8 +9,6 @@ const genCompChoice = () => {
     return random;
 }
 
-
-
 const playGame = (userChoice) => {
     console.log(`choice was clicked. ${userChoice}`);
     //Generate Computer Choice -> Modular Programming -> har kaam ke liye ek fn.
@@ -32,7 +30,9 @@ const playGame = (userChoice) => {
         console.log(`Computer Won`);
     } else if ( userChoice == "scissors" && compChoice == "stone") {
         console.log("Computer WOn");
-    } else if ( userChoice == "");
+    } else if ( userChoice == "") {
+        console.log("");
+    }
         
     
 }
