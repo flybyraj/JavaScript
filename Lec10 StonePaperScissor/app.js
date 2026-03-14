@@ -22,9 +22,19 @@ const playGame = (userChoice) => {
 
     if (userChoice == compChoice) {
         console.log("Draw");
-    } else if {
+    } else if ( userChoice == "stone" && compChoice == "paper" ) {
+        console.log(`Computer Won`);
+    } else if ( userChoice == "stone" && compChoice == "scissors") {
+        console.log(`User Won`);
+    } else if ( userChoice == "paper" && compChoice == "stone") {
+        console.log(`User Won`);
+    } else if ( userChoice == "paper" && compChoice == "scissors") {
+        console.log(`Computer Won`);
+    } else if ( userChoice == "scissors" && compChoice == "stone") {
+        console.log("Computer WOn");
+    } else if ( userChoice == "");
         
-    }
+    
 }
 
 
