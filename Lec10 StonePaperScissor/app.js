@@ -31,7 +31,7 @@ const playGame = (userChoice) => {
     } else if ( userChoice == "scissors" && compChoice == "stone") {
         console.log("Computer WOn");
     } else if ( userChoice == "") {
-        console.log("");
+        console.log("User Wo");
     }
         
     
