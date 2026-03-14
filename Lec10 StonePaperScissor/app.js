@@ -32,7 +32,7 @@ const playGame = (userChoice) => {
         console.log("Computer WOn");
     } else if ( userChoice == "") {
         console.log("User Won");
-    }
+    } else ( user)
         
     
 }
